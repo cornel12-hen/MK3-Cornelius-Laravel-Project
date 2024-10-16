@@ -15,5 +15,5 @@ Route::get('/home', function () {
 });
 
 Route::get('/about', function () {
-    return ('Tentang Que');
+    return ('Cornelius Henry Wibowo');
 });
