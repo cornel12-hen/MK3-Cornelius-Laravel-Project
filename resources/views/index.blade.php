@@ -8,7 +8,7 @@
   </head>
 <body class="bg-white">
     <!-- Navbar -->
-    <nav class="bg-black p-4 px-16 h-20 flex justify-between items-center">
+    <nav class="bg-black p-4 px-16 h-[10vh] flex justify-between items-center">
         <div class="text-white text-2xl font-bold">
             CHW
         </div>

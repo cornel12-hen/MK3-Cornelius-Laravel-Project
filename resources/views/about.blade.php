@@ -9,11 +9,16 @@
 
 </head>
 <body class="bg-slate-900">
-    <header class="h-20 w-full shadow-md mb-12 flex justify-center items-center bg-slate-950">
-        <h1 class="text-2xl font-bold text-sky-400">
-            Welcome Guys!
-        </h1>
-    </header>
+    <nav class="bg-black p-4 px-16 h-[10vh] flex justify-between items-center">
+        <div class="text-white text-2xl font-bold">
+            CHW
+        </div>
+        <div class="space-x-6">
+            <a href="{{ route('home') }}" class="text-white">Home</a>
+            <a href="{{ route('about') }}" class="text-white">About</a>
+            <a href="{{ route('login') }}" class="text-white">Login</a>
+        </div>
+    </nav>
     <main class="w-full h-fit">
         <div class="flex px-48 py-60 gap-20">
             <div class="flex flex-col">
